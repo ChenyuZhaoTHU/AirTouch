@@ -2,3 +2,7 @@
 	path = crazyflie_filter_constant
 	url = https://github.com/ChenyuZhaoTHU/crazyflie_filter_constant
 	branch = master
+[submodule "crazyflie_firmware_constant_height"]
+	path = crazyflie_firmware_constant_height
+	url = https://github.com/ChenyuZhaoTHU/crazyflie_firmware_constant_height
+	branch = master
