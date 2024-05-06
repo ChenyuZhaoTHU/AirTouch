@@ -22,7 +22,7 @@ git submodule update
 ### Step 3: Make and Build the source code
 ```bash
 # Entering the source code for the AirTouch system modules
-cd AirTouch/crazyflie_firmware_constant_height/examples/app_stm_gap8_cpx
+cd examples/app_stm_gap8_cpx
 # Make and build
 make -j
 ```
