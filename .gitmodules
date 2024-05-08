@@ -6,3 +6,6 @@
 	path = crazyflie_firmware_constant_height
 	url = https://github.com/ChenyuZhaoTHU/crazyflie_firmware_constant_height
 	branch = master
+[submodule "aideck-gap8-examples"]
+	path = aideck-gap8-examples
+	url = https://github.com/bitcraze/aideck-gap8-examples/
