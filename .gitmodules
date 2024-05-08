@@ -9,3 +9,6 @@
 [submodule "aideck-gap8-examples"]
 	path = aideck-gap8-examples
 	url = https://github.com/bitcraze/aideck-gap8-examples/
+[submodule "aideck-gap8-inference"]
+	path = aideck-gap8-inference
+	url = https://github.com/ChenyuZhaoTHU/aideck-gap8-inference
