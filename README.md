@@ -37,7 +37,7 @@ sudo udevadm trigger
 ### Step 2: Pull and clone compiling dependencies for crazyflie fiemware so it can be built.
 ```bash
 cd AirTouch/crazyflie_firmware_constant_height
-# Update the submodules
+# Update the submodules, it takes several minutes.
 git submodule init
 git submodule update
 ```
@@ -48,4 +48,4 @@ cd examples/app_stm_gap8_cpx
 # Make and build
 make -j
 ```
-Please make sure the building seccessed.
+Please make sure the building completely seccessed.
