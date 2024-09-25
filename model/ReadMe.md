@@ -21,7 +21,7 @@ The final CSV input data for `dataset.ipynb` is structured as follows:
 
 $$[a_{s}, \omega_{s}, m_{s}, timestamp, label]$$  
 
-Here, the label (0/1) represents edge detection. The `dataset.ipynb` script is used to extract sliding windows from the data with specified input and step sizes. It then normalizes the data using the mean and standard deviation, and forms feature matrices from the three columns. Our `.npy` files for five cases are available in the folder `xxxx`.
+Here, the label (0/1) represents edge detection. The `dataset.ipynb` script is used to extract sliding windows from the data with specified input and step sizes. It then normalizes the data using the mean and standard deviation, and forms feature matrices from the three columns. Our `.npy` files for five cases are available in each folder.
 
 ### 2. Model Training:
 You can use our `cnn_edge_detection.ipynb` to train your own model. This script includes the main steps of training, pruning, and quantization. 
