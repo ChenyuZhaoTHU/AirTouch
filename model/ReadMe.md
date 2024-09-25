@@ -19,3 +19,6 @@ Here, the label (0/1) represents edge detection. The `dataset.ipynb` script is u
 
 ### 2. Model Training:
 You can use our `cnn_edge_detection.ipynb` to train your own model. This script includes the main steps of training, pruning, and quantization. 
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
