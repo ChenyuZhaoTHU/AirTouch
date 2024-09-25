@@ -10,7 +10,7 @@
     
 3. [Flow deck-v2](https://www.bitcraze.io/products/flow-deck-v2/)
 
-4. [Crazyradio 2.0](https://www.bitcraze.io/products/crazyradio-2-0/) Or [Crazyradio](https://www.bitcraze.io/products/crazyradio-pa/)
+4. [Crazyradio 2.0](https://www.bitcraze.io/products/crazyradio-2-0/) Or [Crazyradio PA](https://www.bitcraze.io/products/crazyradio-pa/)
 
 
 # Overview
@@ -43,9 +43,9 @@ The project contains three main parts, including:
 ```bash
 sudo apt-get install make gcc-arm-none-eabi
 ```
-#### 1.2 Prepare the USB rules for flashing and connecting using Crazyradio (To sovle the permission issues of USB)
+#### 1.2 Prepare the USB rules for flashing and connecting using Crazyradio (To solve the permission issues of USB)
 ```bash
-# The following steps make it possible to use the USB Radio and Crazyflie 2 over USB without being root.
+# The following steps make it possible to use the USB Radio and Crazyflie 2 over USB without being rooted.
 sudo groupadd plugdev
 sudo usermod -a -G plugdev $USER
 ```
